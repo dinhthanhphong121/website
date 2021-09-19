@@ -1,0 +1,50 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.item{
+    margin-top: 100px;
+    font-size: 40px;
+    color: #fff;
+    min-height: 100px;
+    line-height: 100px;
+    background-color: blueviolet;
+
+}
+
+
+
+/* VD 3 */
+
+.main{
+    display: flex;
+    margin: 16px 32px;
+}
+
+.sibar{
+    width: 300px;
+    background-color: cyan;
+}
+
+.conten{
+    flex-grow: 1;
+}
+
+
+
+@media (min-width:740px) and (max-width:1023px){
+    .hide-on-table{
+        display: none;
+    }
+}
+
+@media (max-width:739px){
+
+    .hide-on-mobile{
+        display: none;
+    }
+}
